@@ -42,6 +42,44 @@
     text-decoration: none;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-texto h1 {
+    font-size: 5rem;
+}
+
+.main-texto p {
+    font-size: 18px;
+    text-align: center
+}
+
+.main-texto img {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-hero {
+    display: flex;
+}
+
+.img-hero img {
+    display: flex;
+    width: 30vw;
+    height: 85vh;
+}
+
 
 
 
