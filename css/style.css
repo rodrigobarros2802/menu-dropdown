@@ -13,10 +13,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
 
+.menu-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
 
+.menu-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 
+.menu-nav ul, .menu-login ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
 
+.nav-lista li, .login-lista li {
+    list-style: none;
+}
 
+.nav-lista a, .login-lista a {
+    text-decoration: none;
+}
 
 
 
