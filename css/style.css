@@ -39,7 +39,18 @@
 }
 
 .nav-lista a, .login-lista a {
+    font-weight: bold;
+    color: var(--cinza-medio);
     text-decoration: none;
+}
+
+.nav-lista a:hover, .login-lista a:hover {
+    color: var(--quase-preto);
+}
+
+.login-lista button:hover {
+    color: var(--quase-preto);
+    border: 1px solid var(--quase-preto);
 }
 
 .main {
