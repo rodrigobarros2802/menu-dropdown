@@ -93,6 +93,12 @@
     width: 20%;
 }
 
+.main-texto button:hover {
+    color: var(--quase-preto);
+    background-color: var(--quase-branco);
+    border: 1px solid var(--quase-preto);
+}
+
 .img-clientes {
     display: flex;
     gap: 50px;
