@@ -48,6 +48,16 @@
     color: var(--quase-preto);
 }
 
+.login-lista button {
+    background-color: var(--quase-branco);
+    border: 2px solid var(--cinza-medio);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    height: 20px;
+    width: 100px;
+}
+
 .login-lista button:hover {
     color: var(--quase-preto);
     border: 1px solid var(--quase-preto);
@@ -114,18 +124,3 @@
     width: 30vw;
     height: 85vh;
 }
-
-
-
-
-
-
-
-/* .attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-} */
